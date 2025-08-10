@@ -1,0 +1,8 @@
+html, body, #root { height: 100%; margin: 0; font-family: Arial, sans-serif; }
+.app { display: flex; height: 100vh; }
+.sidebar { width: 320px; max-width: 40%; padding: 16px; box-shadow: 0 0 10px rgba(0,0,0,0.08); overflow-y:auto; }
+.map-wrap { flex: 1; position: relative; }
+.leaflet-container { height: 100%; width: 100%; }
+.location-item { padding: 10px 8px; border-bottom: 1px solid #eee; cursor: pointer; }
+.search-box { margin-bottom: 12px; }
+.marker-icon { width: 30px; height: 30px; }
